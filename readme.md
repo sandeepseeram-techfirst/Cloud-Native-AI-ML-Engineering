@@ -30,7 +30,7 @@ Cloud Native AI combines:
 │ Observability: Prometheus, Grafana, Evidently AI    │
 └─────────────────────────────────────────────────────┘
 ```
-## 🛠️ Tools & Technologies (NOT LIMITED TO TECH STACK ABOVE & BELOW)
+## 🛠️ Tools & Technologies 
 
 ### **1. Infrastructure**
 - **Kubernetes** → Orchestrates containerized AI workloads.
