@@ -21,6 +21,7 @@ Cloud Native AI combines:
 
 ---
 
+```
 ┌─────────────────────────────────────────────────────┐
 │                  Cloud Native AI Stack              │
 ├─────────────────────────────────────────────────────┤
@@ -30,3 +31,4 @@ Cloud Native AI combines:
 │ Data: Spark, BigQuery, Delta Lake                   │
 │ Observability: Prometheus, Grafana, Evidently AI    │
 └─────────────────────────────────────────────────────┘
+```
