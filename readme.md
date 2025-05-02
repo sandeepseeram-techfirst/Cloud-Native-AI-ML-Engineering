@@ -101,6 +101,3 @@ Cloud Native AI combines:
 ## 🧑‍💻 Author
 This repository is maintained by **SANDEEP KUMAR SEERAM** — AI/ML, Cloud, and Kubernetes enthusiast exploring **Cloud Native AI**.
 
-<span style="color:red">This text is red</span>  
-<span style="color:blue">This text is blue</span>  
-<span style="color:green;font-weight:bold">This is bold green</span>
