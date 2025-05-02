@@ -30,7 +30,7 @@ Cloud Native AI combines:
 │ Observability: Prometheus, Grafana, Evidently AI    │
 └─────────────────────────────────────────────────────┘
 ```
-## 🛠️ Tools & Technologies (NOT LIMITED TO STACK ABOVE & BELOW)
+## 🛠️ Tools & Technologies (NOT LIMITED TO TECH STACK ABOVE & BELOW)
 
 ### **1. Infrastructure**
 - **Kubernetes** → Orchestrates containerized AI workloads.
@@ -99,5 +99,6 @@ Cloud Native AI combines:
 ---
 
 ## 🧑‍💻 Author
-This repository is maintained by **SANDEEP KUMAR SEERAM** — AI/ML, Cloud, and Kubernetes enthusiast exploring **Cloud Native AI**.
+This repository is maintained by **SANDEEP KUMAR SEERAM**.
+AI/ML, Cloud, and Kubernetes enthusiast & practioner exploring **Cloud Native AI**.
 
