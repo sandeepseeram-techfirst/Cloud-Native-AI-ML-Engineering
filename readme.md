@@ -21,3 +21,12 @@ Cloud Native AI combines:
 
 ---
 
+┌─────────────────────────────────────────────────────┐
+│                  Cloud Native AI Stack              │
+├─────────────────────────────────────────────────────┤
+│ Infra: Kubernetes, GPU Nodes, Knative               │
+│ AI DevOps: Kubeflow, MLflow, Feast, Airflow, Ray    │
+│ Serving: KServe, Seldon, NVIDIA Triton, ONNX Runtime│
+│ Data: Spark, BigQuery, Delta Lake                   │
+│ Observability: Prometheus, Grafana, Evidently AI    │
+└─────────────────────────────────────────────────────┘
