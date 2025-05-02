@@ -99,6 +99,6 @@ Cloud Native AI combines:
 ---
 
 ## 🧑‍💻 Author
-This repository is maintained by **SANDEEP KUMAR SEERAM**.
-AI/ML, Cloud, and Kubernetes enthusiast & practioner exploring **Cloud Native AI**.
+This repository is maintained by **SANDEEP KUMAR SEERAM**.  
+Kubernetes, Cloud and AI/ML enthusiast & practitioner exploring **Cloud Native AI**.
 
