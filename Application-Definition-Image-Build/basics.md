@@ -1,0 +1,2 @@
+# Application Definition and Image Build
+Application Definition and Image Build usually refers to how you define your microservice’s behavior, configuration, dependencies, and runtime environment, and then package it into a deployable image (often a container image).
