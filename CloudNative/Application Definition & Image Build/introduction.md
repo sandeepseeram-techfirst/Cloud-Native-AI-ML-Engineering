@@ -45,3 +45,17 @@ Dockerfile or Build tool defines:
 - Install dependencies
 
 - Define runtime command
+
+## Step 3 -  Integration into CI/CD
+
+### CI/CD pipelines:
+
+- Pull latest source code from Git
+
+- Run tests & linting
+
+- Build image
+
+- Push image to registry
+
+- Deploy to Kubernetes / another orchestrator
