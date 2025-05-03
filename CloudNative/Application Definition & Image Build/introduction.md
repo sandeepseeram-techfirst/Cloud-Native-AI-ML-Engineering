@@ -59,3 +59,5 @@ Dockerfile or Build tool defines:
 - Push image to registry
 
 - Deploy to Kubernetes / another orchestrator
+
+
