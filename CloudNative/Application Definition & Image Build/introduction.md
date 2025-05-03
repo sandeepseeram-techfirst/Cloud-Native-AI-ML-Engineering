@@ -33,3 +33,5 @@ Converts your defined application into a deployable artifact — most commonly a
 - Entry point (e.g., main() function or CMD in Dockerfile).
 
 - Service interfaces (REST APIs via OpenAPI spec, gRPC proto files, event schema).
+
+## Step 2 — Image Build Process 
