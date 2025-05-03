@@ -35,3 +35,13 @@ Converts your defined application into a deployable artifact — most commonly a
 - Service interfaces (REST APIs via OpenAPI spec, gRPC proto files, event schema).
 
 ## Step 2 — Image Build Process 
+
+Dockerfile or Build tool defines:
+
+- Base image (e.g., FROM python:3.12-slim)
+
+- Copy application files
+
+- Install dependencies
+
+- Define runtime command
