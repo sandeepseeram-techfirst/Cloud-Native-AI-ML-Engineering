@@ -16,3 +16,20 @@ Purpose: Make the service self-contained, reproducible, and portable.
 Converts your defined application into a deployable artifact — most commonly a container image (Docker, OCI format).
 
 - The image contains everything needed to run the app: compiled code, libraries, configuration, and runtime.
+
+
+# How it Works — Step by Step 
+
+## Step 1 — Source Code & Application Definition
+
+- Write the microservice code (Java, Go, Python, Node.js, etc.).
+
+### Define:
+
+- Dependencies (e.g., requirements.txt in Python, pom.xml in Maven, package.json in Node.js).
+
+- Configuration (e.g., .env files, config maps, YAML).
+
+- Entry point (e.g., main() function or CMD in Dockerfile).
+
+- Service interfaces (REST APIs via OpenAPI spec, gRPC proto files, event schema).
