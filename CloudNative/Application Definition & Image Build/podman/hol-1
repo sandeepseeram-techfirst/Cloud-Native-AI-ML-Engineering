@@ -22,3 +22,14 @@ docker.io/library/bash      latest      736ead5a0e94  2 weeks ago         16 MB
 docker.io/library/registry  2           26b2eb03618e  22 months ago       26 MB
 ubuntu:~$ 
 
+ubuntu:~$ podman run --name my-ping pinger
+PING google.com (104.26.14.111): 56 data bytes
+64 bytes from 104.26.14.111: seq=0 ttl=42 time=63.849 ms
+64 bytes from 104.26.14.111: seq=1 ttl=42 time=63.960 ms
+64 bytes from 104.26.14.111: seq=2 ttl=42 time=63.876 ms
+64 bytes from 104.26.14.111: seq=3 ttl=42 time=63.677 ms
+64 bytes from 104.26.14.111: seq=4 ttl=42 time=63.916 ms
+64 bytes from 104.26.14.111: seq=5 ttl=42 time=63.717 ms
+64 bytes from 104.26.14.111: seq=6 ttl=42 time=63.872 ms
+64 bytes from 104.26.14.111: seq=7 ttl=42 time=63.914 ms
+64 bytes from 104.26.14.111: seq=8 ttl=42 time=63.886 ms
