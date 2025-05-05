@@ -62,3 +62,6 @@ Restart Docker after enabling.
 docker model pull ai/smollm2:360M-Q4_K_M
 docker model run ai/smollm2:360M-Q4_K_M "Explain Docker in simple terms."
 
+curl http://localhost:12434/engines/llama.cpp/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{"model":"ai/smollm2:360M-Q4_K_M","messages":[{"role":"user","content":"Hello!"}]}'
