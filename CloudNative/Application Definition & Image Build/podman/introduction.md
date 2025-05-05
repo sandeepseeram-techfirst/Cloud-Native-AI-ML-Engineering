@@ -14,20 +14,3 @@ Containers can either be run as root or in rootless mode.
 ---
 
 
-+----------------------------+
-|        User CLI            |
-|   (podman run / build)     |
-+-------------+--------------+
-              |
-              v
-+----------------------------+
-| Podman (daemonless binary) |
-| - uses containers/storage  |
-| - invokes Buildah / Skopeo |
-+------+---------------------+
-       |
-       v
-+----------------------------+      +----------------+
-| OCI runtimes / helpers     | <--> | Registry / Repo|
-| - runc / crun / kata       |      | DockerHub/Quay |
-+----------------------------+      +----------------+
