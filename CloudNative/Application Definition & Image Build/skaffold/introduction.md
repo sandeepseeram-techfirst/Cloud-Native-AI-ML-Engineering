@@ -14,3 +14,6 @@ Skaffold automates the entire build → push → deploy → verify cycle.
 - Log Streaming: Streams logs from your Kubernetes pods so you can see app output immediately.
 
 - Port Forwarding: Makes local services accessible without extra configuration.
+
+
+Skaffold removes the friction from Kubernetes app development by automating the steps between writing code and seeing it run in your cluster. It’s like a live-reload tool but for Kubernetes.
