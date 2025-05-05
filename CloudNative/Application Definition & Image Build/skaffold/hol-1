@@ -1,0 +1,89 @@
+controlplane:~$ docker build -t hello .
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+time="2025-08-10T10:50:14Z" level=error msg="Can't add file /root/.gnupg/S.gpg-agent to tar: archive/tar: sockets not supported"
+time="2025-08-10T10:50:14Z" level=error msg="Can't add file /root/.gnupg/S.gpg-agent.browser to tar: archive/tar: sockets not supported"
+time="2025-08-10T10:50:14Z" level=error msg="Can't add file /root/.gnupg/S.gpg-agent.extra to tar: archive/tar: sockets not supported"
+time="2025-08-10T10:50:14Z" level=error msg="Can't add file /root/.gnupg/S.gpg-agent.ssh to tar: archive/tar: sockets not supported"
+Sending build context to Docker daemon    108MB
+Step 1/7 : FROM golang:1.12-alpine3.10
+1.12-alpine3.10: Pulling from library/golang
+4167d3e14976: Pull complete 
+4ea4023880c8: Pull complete 
+e2b932fca78b: Pull complete 
+3e4197e8d40b: Pull complete 
+49fa82dc59db: Pull complete 
+Digest: sha256:553536b3684fda4d3ca2c3648c5da265e6dab79a8bc36e0eddc12b38a8f5337a
+Status: Downloaded newer image for golang:1.12-alpine3.10
+ ---> 6d6865cf688e
+Step 2/7 : WORKDIR /go/src/hello
+ ---> Running in 3ed133350e75
+ ---> Removed intermediate container 3ed133350e75
+ ---> 863f078cdd10
+Step 3/7 : COPY hello.go .
+ ---> 9b37c5761392
+Step 4/7 : RUN CGO_ENABLED=0 go get -v ./...
+ ---> Running in 139619f893a1
+hello
+ ---> Removed intermediate container 139619f893a1
+ ---> cde088e5dd1f
+Step 5/7 : FROM scratch
+ ---> 
+Step 6/7 : COPY --from=0 /go/bin/hello /
+ ---> 214419a53b1b
+Step 7/7 : ENTRYPOINT ["/hello"]
+ ---> Running in 17c327893326
+ ---> Removed intermediate container 17c327893326
+ ---> 12aff54c3fa4
+Successfully built 12aff54c3fa4
+Successfully tagged hello:latest
+controlplane:~$ 
+
+
+controlplane:~$ skaffold dev 
+Generating tags...
+ - hello -> hello:latest
+Some taggers failed. Rerun with -vdebug for errors.
+Checking cache...
+ - hello: Not found. Building
+Starting build...
+Found [kubernetes-admin@kubernetes] context, using local docker daemon.
+Building [hello]...
+Target platforms: [linux/amd64]
+Sending build context to Docker daemon  3.584kB
+Step 1/7 : FROM golang:1.12-alpine3.10
+ ---> 6d6865cf688e
+Step 2/7 : WORKDIR /go/src/hello
+ ---> Using cache
+ ---> 863f078cdd10
+Step 3/7 : COPY hello.go .
+ ---> Using cache
+ ---> 9b37c5761392
+Step 4/7 : RUN CGO_ENABLED=0 go get -v ./...
+ ---> Using cache
+ ---> cde088e5dd1f
+Step 5/7 : FROM scratch
+ ---> 
+Step 6/7 : COPY --from=0 /go/bin/hello /
+ ---> Using cache
+ ---> 214419a53b1b
+Step 7/7 : ENTRYPOINT ["/hello"]
+ ---> Using cache
+ ---> 12aff54c3fa4
+Successfully built 12aff54c3fa4
+Successfully tagged hello:latest
+Build [hello] succeeded
+Tags used in deployment:
+ - hello -> hello:12aff54c3fa4c1ba50de45b828c47ee11d4d519944fd48c18ca2b419bf3414da
+Starting deploy...
+ - pod/hello-pod created
+Waiting for deployments to stabilize...
+ - pods: creating container hello-container
+    - pod/hello-pod: creating container hello-container
+ - pods: container hello-container is waiting to start: hello:12aff54c3fa4c1ba50de45b828c47ee11d4d519944fd48c18ca2b419bf3414da can't be pulled
+    - pod/hello-pod: container hello-container is waiting to start: hello:12aff54c3fa4c1ba50de45b828c47ee11d4d519944fd48c18ca2b419bf3414da can't be pulled
+ - pods failed. Error: container hello-container is waiting to start: hello:12aff54c3fa4c1ba50de45b828c47ee11d4d519944fd48c18ca2b419bf3414da can't be pulled.
+Cleaning up...
+ - pod "hello-pod" deleted
