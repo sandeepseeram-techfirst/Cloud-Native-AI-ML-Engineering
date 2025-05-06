@@ -1,0 +1,13 @@
+controlplane:~$ curl -L https://get.helm.sh/helm-v3.2.2-linux-amd64.tar.gz | tar xvz && mv linux-amd64/helm /usr/local/bin/helm
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0linux-amd64/
+linux-amd64/helm
+100 12.3M  100 12.3M    0     0  1569k      0  0:00:08  0:00:08 --:--:-- 2815k
+linux-amd64/README.md
+linux-amd64/LICENSE
+
+
+controlplane:~$ helm version
+version.BuildInfo{Version:"v3.2.2", GitCommit:"a6ea66349ae3015618da4f547677a14b9ecc09b3", GitTreeState:"clean", GoVersion:"go1.13.12"}
+controlplane:~$ 
