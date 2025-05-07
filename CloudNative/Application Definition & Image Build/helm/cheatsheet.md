@@ -38,3 +38,9 @@ helm upgrade <release_name> <chart>          # Upgrade release
 helm upgrade <release_name> <chart> --set key=value
 helm upgrade <release_name> <chart> -f values.yaml
 helm upgrade --install <release_name> <chart> # Upgrade or install if not present
+
+
+## Rollbacks 
+
+helm rollback <release_name> <revision_number>   # Rollback to a specific revision
+helm history <release_name>                      # View release history
