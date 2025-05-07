@@ -31,3 +31,10 @@ helm install myapp ./mychart                 # Install from local directory
 helm install myapp ./mychart --dry-run       # Simulate install
 helm install myapp bitnami/nginx --set key=value  # Override values
 helm install myapp bitnami/nginx -f values.yaml   # Use custom values file
+
+## Upgrading Releases
+
+helm upgrade <release_name> <chart>          # Upgrade release
+helm upgrade <release_name> <chart> --set key=value
+helm upgrade <release_name> <chart> -f values.yaml
+helm upgrade --install <release_name> <chart> # Upgrade or install if not present
