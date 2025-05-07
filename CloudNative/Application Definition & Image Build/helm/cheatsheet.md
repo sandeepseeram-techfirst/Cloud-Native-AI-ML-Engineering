@@ -44,3 +44,13 @@ helm upgrade --install <release_name> <chart> # Upgrade or install if not presen
 
 helm rollback <release_name> <revision_number>   # Rollback to a specific revision
 helm history <release_name>                      # View release history
+
+## Listing and Status
+
+helm list                          # List all releases in current namespace
+helm list -A                       # List releases across all namespaces
+helm status <release_name>         # Get status of a release
+helm get all <release_name>        # Get all release information
+helm get values <release_name>     # Get values used for a release
+helm get manifest <release_name>   # Get Kubernetes manifest
+helm get notes <release_name>      # Get chart notes
