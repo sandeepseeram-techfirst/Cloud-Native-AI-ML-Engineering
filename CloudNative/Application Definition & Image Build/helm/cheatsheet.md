@@ -62,3 +62,14 @@ helm plugin list                   # List installed plugins
 helm plugin install <url>          # Install a plugin
 helm template <chart>               # Render templates locally
 helm template <chart> --debug       # Debug rendering
+
+## Chart Development 
+
+helm create <chart_name>           # Create a new chart
+helm lint ./mychart                # Check chart for issues
+helm package ./mychart             # Package chart into .tgz
+helm template <chart>               # Render chart templates locally
+helm dependency list               # List chart dependencies
+helm dependency update             # Update chart dependencies
+helm show all <chart>               # Show chart details
+helm show values <chart>            # Show default values
