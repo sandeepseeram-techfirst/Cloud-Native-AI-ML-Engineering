@@ -22,3 +22,12 @@ helm repo add <repo_name> <repo_url> # Add a repository
 helm repo add bitnami https://charts.bitnami.com/bitnami
 helm repo update                    # Update repositories
 helm repo remove <repo_name>        # Remove a repository
+
+## Installing Charts 
+
+helm install <release_name> <chart>          # Install a chart
+helm install myapp bitnami/nginx             # Install from repo
+helm install myapp ./mychart                 # Install from local directory
+helm install myapp ./mychart --dry-run       # Simulate install
+helm install myapp bitnami/nginx --set key=value  # Override values
+helm install myapp bitnami/nginx -f values.yaml   # Use custom values file
