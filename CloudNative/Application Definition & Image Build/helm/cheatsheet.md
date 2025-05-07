@@ -54,3 +54,11 @@ helm get all <release_name>        # Get all release information
 helm get values <release_name>     # Get values used for a release
 helm get manifest <release_name>   # Get Kubernetes manifest
 helm get notes <release_name>      # Get chart notes
+
+## Debugging 
+
+helm env                           # Show Helm environment variables
+helm plugin list                   # List installed plugins
+helm plugin install <url>          # Install a plugin
+helm template <chart>               # Render templates locally
+helm template <chart> --debug       # Debug rendering
