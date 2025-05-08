@@ -4,7 +4,7 @@ Helm is a package manager for Kubernetes, used to deploy and manage applications
 
 ---
 
-## 📦 Installation & Version
+## 📦 Helm Cheat Sheet 
 ```bash
 helm version                        # Show Helm client & server version
 helm help                           # Show help for Helm commands
