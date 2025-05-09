@@ -13,3 +13,33 @@ A **cloud-native database** is a database that’s **built and optimized specifi
 They differ from “traditional” databases that are **lifted and shifted** to the cloud (like running Oracle or SQL Server on a VM). Cloud-native databases **aren’t just hosted in the cloud — they’re architected for it**.
 
 ---
+
+## 2. How Do They Work?
+
+Most cloud-native databases follow a **distributed systems architecture**. Here’s a simplified flow:
+
+1. **Cluster-based Setup**  
+   - Instead of a single monolithic DB server, the database is a cluster of nodes (pods in Kubernetes, or managed compute instances).  
+   - Data is sharded and/or replicated across nodes.
+
+2. **Data Distribution**  
+   - **Horizontal partitioning (sharding)** for scale-out.  
+   - **Replication** for redundancy and high availability (often across zones/regions).
+
+3. **Consensus & Coordination**  
+   - Use protocols like **Raft** or **Paxos** for consistency between nodes.  
+   - Some adopt **eventual consistency** (common in NoSQL) for performance.
+
+4. **Elastic Scaling**  
+   - Nodes are automatically added or removed based on load.  
+   - Storage grows independently of compute (in modern designs).
+
+5. **Cloud-Native Operations**  
+   - Automated backups, patching, failover.  
+   - Observability hooks for metrics, logs, and tracing.  
+   - Service discovery for clients (via DNS, load balancers, or service mesh).
+
+6. **Kubernetes Integration** (for container-native DBs)  
+   - StatefulSets, Operators, Persistent Volumes handle orchestration and storage lifecycle.
+
+---
