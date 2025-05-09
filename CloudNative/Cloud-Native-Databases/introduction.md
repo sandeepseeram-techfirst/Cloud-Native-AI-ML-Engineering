@@ -9,3 +9,7 @@ A **cloud-native database** is a database that’s **built and optimized specifi
 - **Self-healing & fault-tolerance** – node failures don’t cause downtime.
 - **Multi-tenancy** – serve multiple workloads/clients securely from the same cluster.
 - **Integration with cloud-native ecosystems** – works well with Kubernetes, containers, service meshes, CI/CD, etc.
+
+They differ from “traditional” databases that are **lifted and shifted** to the cloud (like running Oracle or SQL Server on a VM). Cloud-native databases **aren’t just hosted in the cloud — they’re architected for it**.
+
+---
