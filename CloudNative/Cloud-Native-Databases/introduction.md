@@ -43,3 +43,4 @@ Most cloud-native databases follow a **distributed systems architecture**. Hereâ
    - StatefulSets, Operators, Persistent Volumes handle orchestration and storage lifecycle.
 
 ---
+
