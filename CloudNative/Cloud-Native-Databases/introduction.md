@@ -76,3 +76,6 @@ Most cloud-native databases follow a **distributed systems architecture**. Here�
 | **Analytics on Fresh Data** | Stream ingestion + query in near real-time | Timescale Cloud for operational analytics |
 
 ---
+
+**💡 Key takeaway:**  
+A cloud-native database is **not just a DB in the cloud** — it’s built for the **distributed, elastic, API-driven, and fault-tolerant nature** of cloud environments. They shine in **scalable, highly available, multi-region, and microservices-driven workloads**.
