@@ -11,3 +11,10 @@ Think of it as:
 Instead of clients calling backend services directly, **all traffic goes through the API Gateway**, which then routes, processes, and manages requests.
 
 ---
+
+## 2. How Does It Work?
+
+**Flow:**
+
+1. **Client sends a request**  
+   → Could be from a browser, mobile app, IoT device, etc.
