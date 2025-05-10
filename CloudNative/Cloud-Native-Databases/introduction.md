@@ -44,3 +44,20 @@ Most cloud-native databases follow a **distributed systems architecture**. Hereâ
 
 ---
 
+## 3. Examples of Cloud-Native Databases
+
+- **Relational (NewSQL)**:  
+  - Google Cloud Spanner  
+  - CockroachDB  
+  - YugabyteDB  
+
+- **NoSQL / Document Stores**:  
+  - MongoDB Atlas  
+  - Couchbase Capella  
+  - Amazon DynamoDB  
+
+- **Time-Series**:  
+  - InfluxDB Cloud  
+  - Timescale Cloud  
+
+---
