@@ -61,3 +61,18 @@ Most cloud-native databases follow a **distributed systems architecture**. Hereâ
   - Timescale Cloud  
 
 ---
+
+
+## 4. Use Cases
+
+| **Use Case** | **Why Cloud-Native DB Fits** | **Example** |
+|--------------|-----------------------------|-------------|
+| **Global Applications** | Multi-region replication, low-latency access, high uptime | Google Spanner for a worldwide SaaS |
+| **Microservices Backends** | Works well with Kubernetes, can run per-service DB instances | CockroachDB or YugabyteDB for polyglot services |
+| **E-commerce / Retail** | Auto-scale during seasonal spikes, high transaction throughput | DynamoDB for Black Friday traffic |
+| **IoT Data Ingestion** | Handles huge write volumes, can process time-series data | InfluxDB Cloud for sensor telemetry |
+| **Gaming Platforms** | Low-latency, high concurrency, multi-region sync | Redis Enterprise Cloud for game state storage |
+| **Financial Transactions** | Strong consistency, high availability | YugabyteDB or Spanner for fintech apps |
+| **Analytics on Fresh Data** | Stream ingestion + query in near real-time | Timescale Cloud for operational analytics |
+
+---
