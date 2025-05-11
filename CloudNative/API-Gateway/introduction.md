@@ -18,3 +18,8 @@ Instead of clients calling backend services directly, **all traffic goes through
 
 1. **Client sends a request**  
    → Could be from a browser, mobile app, IoT device, etc.
+
+2. **Gateway intercepts the request**  
+   - Checks authentication/authorization.
+   - Validates request structure.
+   - Enforces rate limits, throttling, quotas.
