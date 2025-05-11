@@ -23,4 +23,17 @@ Instead of clients calling backend services directly, **all traffic goes through
    - Checks authentication/authorization.
    - Validates request structure.
    - Enforces rate limits, throttling, quotas.
-   
+
+3. **Gateway routes the request**  
+   - Finds the correct backend service (via internal routing rules, service discovery).
+   - Can transform request (headers, payload, protocol). 
+
+4. **Gateway invokes backend service**  
+   - Handles retries, timeouts, and circuit breaking.
+
+5. **Backend responds → Gateway processes response**  
+   - Can transform response format.
+   - Aggregates data from multiple services (backend-for-frontend pattern).
+   - Applies caching if configured.
+
+6. **Gateway sends final response to client**
