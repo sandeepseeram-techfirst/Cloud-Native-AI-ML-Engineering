@@ -23,3 +23,4 @@ Instead of clients calling backend services directly, **all traffic goes through
    - Checks authentication/authorization.
    - Validates request structure.
    - Enforces rate limits, throttling, quotas.
+   
