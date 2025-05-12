@@ -37,3 +37,20 @@ Instead of clients calling backend services directly, **all traffic goes through
    - Applies caching if configured.
 
 6. **Gateway sends final response to client**
+
+---
+
+## 3. Use Cases of an API Gateway
+
+| Use Case                  | Why It’s Needed |
+|---------------------------|-----------------|
+| **Single Entry Point**    | Consolidates multiple microservices into one endpoint for clients. |
+| **Security Enforcement**  | Centralized authentication, authorization, and input validation. |
+| **Rate Limiting & Throttling** | Protects backend services from being overwhelmed. |
+| **Request/Response Transformation** | Converts XML to JSON, changes field names, etc. |
+| **API Versioning**        | Route requests to different backend versions without changing client code. |
+| **Service Aggregation**   | Combine responses from multiple microservices in one API call. |
+| **Monitoring & Logging**  | Central point to capture API metrics, latency, and errors. |
+| **Caching**               | Reduce latency and backend load. |
+
+---
