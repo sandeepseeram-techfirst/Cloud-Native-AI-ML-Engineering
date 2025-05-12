@@ -54,3 +54,30 @@ Instead of clients calling backend services directly, **all traffic goes through
 | **Caching**               | Reduce latency and backend load. |
 
 ---
+
+## 4. Technical Context on API Gateways
+
+**Typical Features:**
+
+- **Protocol Translation**  
+  REST ↔ gRPC, HTTP ↔ WebSockets, HTTP ↔ AMQP, etc.
+
+- **Authentication & Authorization**  
+  OAuth 2.0, JWT, API keys, mTLS, OpenID Connect.
+
+- **Service Discovery Integration**  
+  Works with Consul, Eureka, Kubernetes service registry, etc.
+
+- **Traffic Management**  
+  - Load balancing (round-robin, least connections, weight-based).
+  - Canary releases & A/B testing.
+  - Circuit breaking (e.g., Hystrix pattern).
+
+- **Observability**  
+  Tracing (Jaeger, Zipkin), metrics (Prometheus), logging (ELK/Splunk).
+
+- **Developer Portal & API Documentation**  
+  Auto-generate docs from OpenAPI/Swagger specs, enable API subscriptions.
+
+--- 
+
