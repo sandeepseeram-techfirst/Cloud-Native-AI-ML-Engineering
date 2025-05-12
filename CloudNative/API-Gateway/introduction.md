@@ -81,3 +81,33 @@ Instead of clients calling backend services directly, **all traffic goes through
 
 --- 
 
+### Deployment Models
+
+- **Managed / Cloud-based**
+  - AWS API Gateway
+  - Azure API Management
+  - Google Cloud API Gateway
+  - Kong Cloud
+
+- **Self-Hosted**
+  - Deployed on VMs, Kubernetes, or bare metal.
+  - Examples: Kong, Tyk, NGINX, Envoy.
+
+---
+
+## 5. Common API Gateways in the Industry
+
+| API Gateway              | Type                | Highlights |
+|--------------------------|---------------------|------------|
+| **AWS API Gateway**      | Managed             | Serverless, deep AWS integration, Lambda proxy. |
+| **Kong**                 | Open Source / Enterprise | NGINX-based, plugin ecosystem, works well with Kubernetes. |
+| **NGINX**                | Open Source / Enterprise | Lightweight, high-performance, reverse proxy + gateway. |
+| **Traefik**              | Open Source         | Native K8s integration, supports dynamic config via labels. |
+| **Envoy Proxy**          | Open Source         | High-performance, gRPC-native, part of Istio and other service meshes. |
+| **Tyk**                  | Open Source / Managed | Developer portal, rate limiting, analytics. |
+| **Apigee (Google Cloud)**| Managed             | Enterprise-grade, advanced security & monetization. |
+| **Azure API Management** | Managed             | Hybrid deployment, Dev portal, policy engine. |
+| **Spring Cloud Gateway** | Open Source         | Java/Spring Boot apps, great for Spring microservices. |
+
+---
+
