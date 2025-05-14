@@ -9,6 +9,6 @@ Instead of just producing a one-off response (like ChatGPT answering a single qu
 
 3. Executes actions, which can involve calling APIs, searching the web, running code, or interacting with other agents.
 
-Observes results and adapts its next actions accordingly.
+4. Observes results and adapts its next actions accordingly.
 
-Stops when the goal is achieved or a stopping condition is met.
+5. Stops when the goal is achieved or a stopping condition is met.
