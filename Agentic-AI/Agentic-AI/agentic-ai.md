@@ -12,3 +12,5 @@ Instead of just producing a one-off response (like ChatGPT answering a single qu
 4. Observes results and adapts its next actions accordingly.
 
 5. Stops when the goal is achieved or a stopping condition is met.
+
+** Essentially, it’s AI that can think, plan, and act in a loop — not just chat. ** 
