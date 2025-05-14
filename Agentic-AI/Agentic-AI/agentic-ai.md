@@ -86,7 +86,9 @@ Most Agentic AI follows a **Perception → Reasoning → Action → Feedback Loo
 
 Here are **real-world** applications:
 
-**DomainExample Use CaseBusiness Automation**An AI that monitors sales dashboards, identifies drops in performance, and sends a Slack alert with recommended fixes.**Research & Analysis**A market research agent that autonomously searches the web, aggregates data, and generates a report.
+* **Automation** An AI that monitors sales dashboards, identifies drops in performance, and sends a Slack alert with recommended fixes.
+
+* **Research & Analysis** A market research agent that autonomously searches the web, aggregates data, and generates a report.
 
 **Customer Support** AI that can resolve tickets by checking CRM data, issuing refunds, and updating records.
 **DevOps/SRE** A self-healing infrastructure agent that detects an outage, runs diagnostics, and redeploys services.
