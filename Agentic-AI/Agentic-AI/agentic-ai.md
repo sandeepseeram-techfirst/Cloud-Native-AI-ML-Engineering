@@ -90,16 +90,40 @@ Here are **real-world** applications:
 
 * **Research & Analysis** A market research agent that autonomously searches the web, aggregates data, and generates a report.
 
-**Customer Support** AI that can resolve tickets by checking CRM data, issuing refunds, and updating records.
-**DevOps/SRE** A self-healing infrastructure agent that detects an outage, runs diagnostics, and redeploys services.
-**Finance** An AI portfolio manager that rebalances investments based on market signals.**Content Creation**An AI that drafts blog posts, creates images, and schedules social media content.**Personal Assistant**A travel-planning agent that books flights, hotels, and activities within budget.**Multi-Agent Systems**Several agents collaborating — e.g., one researches, one writes, one critiques and edits.
+* **Customer Support** AI that can resolve tickets by checking CRM data, issuing refunds, and updating records.
+
+* **DevOps/SRE** A self-healing infrastructure agent that detects an outage, runs diagnostics, and redeploys services.
+
+* **Finance** An AI portfolio manager that rebalances investments based on market signals.
+
+* **Content Creation** An AI that drafts blog posts, creates images, and schedules social media content.
+
+* **Personal Assistant** A travel-planning agent that books flights, hotels, and activities within budget.
+
+* **Multi-Agent Systems** Several agents collaborating — e.g., one researches, one writes, one critiques and edits.
 
 **4\. Common Frameworks for Building Agentic AI**
 -------------------------------------------------
 
 Here are the **popular open-source and commercial frameworks** that developers use:
 
-**FrameworkDescriptionLanguageSpecialtyLangChain**Modular framework for LLM applications with tools, memory, agentsPython, JSMost popular, rich integrations**LlamaIndex** (formerly GPT Index)Focused on connecting LLMs with structured/unstructured dataPythonData agents**Haystack**NLP pipeline framework with retrieval, agents, and knowledge graphsPythonSearch/retrieval-heavy agents**AutoGPT**Fully autonomous agents that execute multi-step goalsPythonExperimental autonomy**BabyAGI**Lightweight task-driven agent loopPythonMinimalist agent**CrewAI**Multi-agent collaboration platformPythonTeam-of-agents scenarios**Microsoft Semantic Kernel**Integrates LLMs into enterprise workflowsC#, Python, JSEnterprise & Microsoft ecosystem**OpenAI Assistants API**Hosted agent framework with memory and toolsPython, JSManaged agent environment**Cognosys / Aider / Others**Code-focused autonomous agentsPythonDeveloper productivity
+* **LangChain** Modular framework for LLM applications with tools, memory, agents - Python, JSMost popular, rich integrations. 
+
+* **LlamaIndex** (formerly GPT Index) Focused on connecting LLMs with structured/unstructured data - PythonData agents.
+
+* **Haystack** NLP pipeline framework with retrieval, agents, and knowledge graphs - PythonSearch/retrieval-heavy agents. 
+
+* **AutoGPT** Fully autonomous agents that execute multi-step goals. 
+
+* **BabyAGI** Lightweight task-driven agent loop. 
+
+* **CrewAI** Multi-agent collaboration platform. PythonTeam-of-agents scenarios. 
+
+**Microsoft Semantic Kernel** Integrates LLMs into enterprise workflows - C#, Python, JSEnterprise & Microsoft ecosystem.
+
+**OpenAI Assistants API** Hosted agent framework with memory and toolsPython, JSManaged agent environment.
+
+**Cognosys / Aider / Others**Code-focused autonomous agentsPythonDeveloper productivity.
 
 💡 **Tip:**For production-grade, reliable agents, you often combine:
 
