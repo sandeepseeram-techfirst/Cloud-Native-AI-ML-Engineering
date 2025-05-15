@@ -117,13 +117,13 @@ Here are the **popular open-source and commercial frameworks** that developers u
 
 * **BabyAGI:** Lightweight task-driven agent loop. 
 
-* **CrewAI:** Multi-agent collaboration platform. PythonTeam-of-agents scenarios. 
+* **CrewAI:** Multi-agent collaboration platform. Python. Team-of-agents scenarios. 
 
 **Microsoft Semantic Kernel:** Integrates LLMs into enterprise workflows - C#, Python, JS Enterprise & Microsoft ecosystem.
 
 **OpenAI Assistants API:** Hosted agent framework with memory and tools - Python, JS Managed agent environment.
 
-**Cognosys / Aider / Others:** Code-focused autonomous agentsPythonDeveloper productivity.
+**Cognosys / Aider / Others:** Code-focused autonomous agents - Python, Developer productivity.
 
 💡 **Tip:**For production-grade, reliable agents, you often combine:
 
