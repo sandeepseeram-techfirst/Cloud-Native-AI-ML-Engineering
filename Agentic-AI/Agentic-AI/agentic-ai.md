@@ -86,21 +86,21 @@ Most Agentic AI follows a **Perception → Reasoning → Action → Feedback Loo
 
 Here are **real-world** applications:
 
-* **Automation** An AI that monitors sales dashboards, identifies drops in performance, and sends a Slack alert with recommended fixes.
+* **Automation:** An AI that monitors sales dashboards, identifies drops in performance, and sends a Slack alert with recommended fixes.
 
-* **Research & Analysis** A market research agent that autonomously searches the web, aggregates data, and generates a report.
+* **Research & Analysis:** A market research agent that autonomously searches the web, aggregates data, and generates a report.
 
-* **Customer Support** AI that can resolve tickets by checking CRM data, issuing refunds, and updating records.
+* **Customer Support:** AI that can resolve tickets by checking CRM data, issuing refunds, and updating records.
 
-* **DevOps/SRE** A self-healing infrastructure agent that detects an outage, runs diagnostics, and redeploys services.
+* **DevOps/SRE:** A self-healing infrastructure agent that detects an outage, runs diagnostics, and redeploys services.
 
-* **Finance** An AI portfolio manager that rebalances investments based on market signals.
+* **Finance:** An AI portfolio manager that rebalances investments based on market signals.
 
-* **Content Creation** An AI that drafts blog posts, creates images, and schedules social media content.
+* **Content Creation:** An AI that drafts blog posts, creates images, and schedules social media content.
 
-* **Personal Assistant** A travel-planning agent that books flights, hotels, and activities within budget.
+* **Personal Assistant:** A travel-planning agent that books flights, hotels, and activities within budget.
 
-* **Multi-Agent Systems** Several agents collaborating — e.g., one researches, one writes, one critiques and edits.
+* **Multi-Agent Systems:** Several agents collaborating — e.g., one researches, one writes, one critiques and edits.
 
 **4\. Common Frameworks for Building Agentic AI**
 -------------------------------------------------
