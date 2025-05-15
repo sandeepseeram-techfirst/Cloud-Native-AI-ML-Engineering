@@ -107,23 +107,23 @@ Here are **real-world** applications:
 
 Here are the **popular open-source and commercial frameworks** that developers use:
 
-* **LangChain** Modular framework for LLM applications with tools, memory, agents - Python, JSMost popular, rich integrations. 
+* **LangChain:** Modular framework for LLM applications with tools, memory, agents - Python, JS Most popular, rich integrations. 
 
-* **LlamaIndex** (formerly GPT Index) Focused on connecting LLMs with structured/unstructured data - PythonData agents.
+* **LlamaIndex:** (formerly GPT Index) Focused on connecting LLMs with structured/unstructured data - Python - Data agents.
 
-* **Haystack** NLP pipeline framework with retrieval, agents, and knowledge graphs - PythonSearch/retrieval-heavy agents. 
+* **Haystack:** NLP pipeline framework with retrieval, agents, and knowledge graphs - Python - Search/retrieval-heavy agents. 
 
-* **AutoGPT** Fully autonomous agents that execute multi-step goals. 
+* **AutoGPT:** Fully autonomous agents that execute multi-step goals. 
 
-* **BabyAGI** Lightweight task-driven agent loop. 
+* **BabyAGI:** Lightweight task-driven agent loop. 
 
-* **CrewAI** Multi-agent collaboration platform. PythonTeam-of-agents scenarios. 
+* **CrewAI:** Multi-agent collaboration platform. PythonTeam-of-agents scenarios. 
 
-**Microsoft Semantic Kernel** Integrates LLMs into enterprise workflows - C#, Python, JSEnterprise & Microsoft ecosystem.
+**Microsoft Semantic Kernel:** Integrates LLMs into enterprise workflows - C#, Python, JS Enterprise & Microsoft ecosystem.
 
-**OpenAI Assistants API** Hosted agent framework with memory and toolsPython, JSManaged agent environment.
+**OpenAI Assistants API:** Hosted agent framework with memory and tools - Python, JS Managed agent environment.
 
-**Cognosys / Aider / Others**Code-focused autonomous agentsPythonDeveloper productivity.
+**Cognosys / Aider / Others:** Code-focused autonomous agentsPythonDeveloper productivity.
 
 💡 **Tip:**For production-grade, reliable agents, you often combine:
 
