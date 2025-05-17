@@ -5,3 +5,12 @@ Linux host01 6.8.0-59-generic #61-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:16:11
 sudo apt-get update && sudo apt-get install -y curl git python3 python3-venv 
 
 
+# Install Ollama + pull a model
+
+curl -fsSL https://ollama.com/install.sh | sh
+sudo systemctl enable ollama
+sudo systemctl start ollama
+
+ollama pull llama3.1:8b   # or: ollama pull qwen2.5:7b
+
+
