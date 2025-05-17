@@ -13,4 +13,31 @@ sudo systemctl start ollama
 
 ollama pull llama3.1:8b   # or: ollama pull qwen2.5:7b
 
+######## Execution ########
 
+$ curl -fsSL https://ollama.com/install.sh | sh
+sudo systemctl enable ollama
+sudo systemctl start ollama
+
+ollama pull llama3.1:8b   # or: ollama pull qwen2.5:7b
+>>> Installing ollama to /usr/local
+>>> Downloading Linux amd64 bundle
+######################################################################## 100.0%
+>>> Creating ollama user...
+>>> Adding ollama user to render group...
+>>> Adding ollama user to video group...
+>>> Adding current user to ollama group...
+>>> Creating ollama systemd service...
+>>> Enabling and starting ollama service...
+Created symlink /etc/systemd/system/default.target.wants/ollama.service → /etc/systemd/system/ollama.service.
+WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.
+pulling manifest 
+pulling 667b0c1932bc: 100% ▕██████████████████████████████████████████████████████████████▏ 4.9 GB                         
+pulling 948af2743fc7: 100% ▕██████████████████████████████████████████████████████████████▏ 1.5 KB                         
+pulling 0ba8f0e314b4: 100% ▕██████████████████████████████████████████████████████████████▏  12 KB                         
+pulling 56bb8bd477a5: 100% ▕██████████████████████████████████████████████████████████████▏   96 B                         
+pulling 455f34728c9b: 100% ▕██████████████████████████████████████████████████████████████▏  487 B                         
+verifying sha256 digest 
+writing manifest 
+success 
+$ 
