@@ -6,3 +6,5 @@ Scope: Includes supervised learning, unsupervised learning, reinforcement learni
 
 Machine Learning, an aspect of Artificial Intelligence where we train models to classify, label, answer, and create. 
 Models, along with their predictions, are the end product of the machine learning process, but ML begins with the techniques and algorithms used to prepare and process data.
+
+Training a model involves feeding data through these algorithms and adjusting parameters. This process often relies on brute force and trial-and-error methods before arriving at a model that is sufficiently accurate.
