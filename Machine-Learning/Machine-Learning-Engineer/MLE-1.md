@@ -25,3 +25,7 @@ The decision-making systems in our world are increasingly reliant on algorithmic
 
 
 **Machine Learning Engineering** concerns itself with designing, building, maintaining and fine-tuning computational systems that can execute sophisticated machine learning algorithms on large amounts of data.
+
+## Roles - MLE vs. DS vs. DE
+
+![ML Roles](image.png)
