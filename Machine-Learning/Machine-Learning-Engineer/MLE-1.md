@@ -17,3 +17,4 @@ The decision-making systems in our world are increasingly reliant on algorithmic
 3. Adjust parameters if results are poor.  
 4. Repeat the process iteratively (similar to human learning).  
 
+Machine Learning is an **iterative process** of training, testing, and improving models to recognize patterns and make predictions—mimicking aspects of human learning.
