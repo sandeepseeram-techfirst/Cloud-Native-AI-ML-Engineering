@@ -22,3 +22,6 @@ The decision-making systems in our world are increasingly reliant on algorithmic
 2. The more training data we have, the better an **algorithm** can learn its patterns.
 
 3. Storing and accessing vast amounts of data requires robust hardware and pipelines. And running a machine learning algorithm requires lots of computing power and an infrastructure that allows for a seamless flow of data between the different steps of the algorithm.
+
+
+**Machine Learning Engineering** concerns itself with designing, building, maintaining and fine-tuning computational systems that can execute sophisticated machine learning algorithms on large amounts of data.
