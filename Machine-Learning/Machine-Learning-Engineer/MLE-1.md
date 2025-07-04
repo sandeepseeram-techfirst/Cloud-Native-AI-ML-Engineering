@@ -10,3 +10,10 @@ The decision-making systems in our world are increasingly reliant on algorithmic
 - **Mathematics**: Probability, Linear Algebra, and Calculus form the foundation of models.  
 - **Computer Science**: Programming languages implement these models into executable tasks.  
 - **Statistics**: Ensures models reflect data accurately and helps evaluate their performance.  
+
+## How It Works
+1. Train models with historical data.  
+2. Evaluate performance using statistics.  
+3. Adjust parameters if results are poor.  
+4. Repeat the process iteratively (similar to human learning).  
+
