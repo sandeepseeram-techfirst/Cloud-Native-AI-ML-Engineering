@@ -9,7 +9,7 @@
 
 ## Evolution of AI Agents
 - **Traditional AI Agents**:  
-  - Designed for specific, well-defined tasks.  
+  - Designed for specific, well-defined tasks.
   - Worked like assistants following instructions.  
 
 - **Modern AI Agents**:  
